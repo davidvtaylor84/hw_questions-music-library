@@ -1,5 +1,5 @@
 **Q1** - How has our Album class changed to represent moving from a one table design to a **ONE artist has MANY albums** relationship with two tables?
-The album class now takes in an artist. Within this library, we can have a singular artist with many albums, but not vice versa. 
+The album class now takes in an artist. Within this library, we can have a singular artist with many albums, but not vice versa. The artist class does not take in an album.
 ---
 
 **Q2** - What does it mean for our `albums` table (specifically the `artist_name` column?)
